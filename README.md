@@ -62,23 +62,24 @@ Provide various use cases and code examples here.
 
 
 ## Project Status
-Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+Project is: in progress
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+- We aim to create DataFrame that includes images for each object.
+- We plan to incorporate the use of classes to download and read FITS files. 
 
-Room for improvement:
-- Improvement to be done 1
-- Improvement to be done 2
-
-To do:
-- Feature to be added 1
-- Feature to be added 2
 
 
 ## Acknowledgements and Helpful Sources
-________
+- Idea inspired by Project 2 Suggestions from Astronomy Data Analysis 1221 at The Ohio State University
+- https://www.geeksforgeeks.org/python/how-to-create-a-pivot-table-in-python-using-pandas/
+- https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html
+- https://opencomputinglab.github.io/SubjectMatterNotebooks/astronomy/fits-images.html
+- https://tingyuansen.github.io/coding_essential_for_astronomers/lectures/lecture14-astropy-time-observationplanning-fits.html
+- https://tingyuansen.github.io/coding_essential_for_astronomers/lectures/lecture12-advanced-pandas.html
+- https://stackoverflow.com/questions/53468558/adding-image-to-pandas-dataframe
+
 
 
 ## Contact
