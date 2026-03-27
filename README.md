@@ -1,5 +1,5 @@
 # JWST Image Gallery Organizer
-> Outline a brief description of your project.
+This project is a basic astronomy catalog that uses relatively recent JWST data from the MAST Archive to display images and metadata of a variety of popular DSOs, such as the Eagle Nebula (M16) and the Pinwheel Galaxy (M101). 
 
 
 ## Table of Contents
@@ -37,28 +37,28 @@ but apply the knowledge and necessary skills gained from lecture to create a fun
 
 
 ## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+Interesting features:
+- Accessible through Streamlit
+- Images are included in the merged dataframe! 
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+Here is where to find URIs for FITS data: https://buckeyemailosu-my.sharepoint.com/:i:/g/personal/smedley_48_buckeyemail_osu_edu/IQB9cZjK6iFiRJvduFIQXm5nAW6bWQBz4jy-MCvfBE5k5eQ
+"
 
 
-## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+## Setup for Downloading FITS Files
+1. Install Python 3.14
+2. Use pip install to download the packages listed in "Technologies Used"
+3. Access JWST data for a specific by downloading FITS files from the MAST archive. To download, create your own URL by copying URIs from the chosen files' "details" section.
+4. Follow the instructions in the Notebook for further guidance on using packages to read FITS headers and display data.
+5. Download each image as a JPEG file to store in dataframes. 
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
+To access the catalog through JupyterLab, the user must run each object FITS file cell to download, open, and read the data for each FITS file, which allows for the display of images and metadata for each object. Once each cell is run and a merged dataframe is created, the user can download the final catalog as an HTML file. 
 
-`write-your-code-here`
 
 
 ## Project Status
@@ -66,8 +66,7 @@ Project is: in progress
 
 
 ## Room for Improvement
-- We aim to create DataFrame that includes images for each object.
-- We plan to incorporate the use of classes to download and read FITS files. 
+- Using classes to open FITS files avoid redundant code. 
 
 
 
