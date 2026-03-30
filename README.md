@@ -1,4 +1,4 @@
-# JWST Image Gallery Organizer
+# JWST Image Gallery
 This project is a basic astronomy catalog that uses relatively recent JWST data from the MAST Archive to display images and metadata of a variety of popular DSOs, such as the Eagle Nebula (M16) and the Pinwheel Galaxy (M101). 
 
 
