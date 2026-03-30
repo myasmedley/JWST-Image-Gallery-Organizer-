@@ -1,5 +1,5 @@
 # JWST Image Gallery
-This project is a basic astronomy catalog that uses relatively recent JWST data from the MAST Archive to display images and metadata of a variety of popular DSOs, such as the Eagle Nebula (M16) and the Pinwheel Galaxy (M101). 
+This project is a basic astronomy catalog that uses JWST data from the MAST Archive to display images and metadata of a variety of popular DSOs, such as the Eagle Nebula (M16) and the Pinwheel Galaxy (M101). 
 
 
 ## Table of Contents
@@ -18,8 +18,8 @@ This project is a basic astronomy catalog that uses relatively recent JWST data 
 
 ## General Information
 The purpose of this project was to use the fundamental basics of downloading and opening FITS 
-files, reading FITS headers, and inputting data into pandas DateFrames, to create a simple astronomy catalog.
-In doing so, our team not only was able to become familiar with conceptual astronomical data analysis and a variety of DSOs,
+files, reading FITS headers, and inputting data into pandas DateFrames, to ultimately create a simple astronomy catalog.
+In doing so, our team was not only able to become familiar with conceptual astronomical data analysis and a variety of DSOs,
 but apply the knowledge and necessary skills gained from lecture to create a fun and engaging project. 
 
 
@@ -52,13 +52,13 @@ Here is where to find URIs for FITS data on MAST, as it can be a bit tricky to n
 ## Setup for Downloading FITS Files
 1. Install Python 3.14
 2. Use pip install to download the packages listed in "Technologies Used"
-3. Access JWST data for a specific by downloading FITS files from the MAST archive. To download, create your own URL by copying URIs from the chosen files' "details" section.
+3. Access JWST data for a specific object/target by downloading FITS files from the MAST archive. To download, create your own URL by copying URIs from the chosen files' "details" section.
 4. Follow the instructions in the Notebook for further guidance on using packages to read FITS headers and display data.
 5. Download each image as a JPEG file to store in dataframes. 
 
 
 ## Usage
-To access the catalog through JupyterLab, the user must run each object's FITS file cell to download, open, and read the data, which allows for the display of images and metadata for them. Once each cell is run and a merged dataframe is created, the user can download the final catalog as an HTML file to input in Streamlit. 
+To access the catalog through JupyterLab, the user must run each object's FITS file cell to download, open, and read the data, which allows for the display of images and metadata for them. Once each cell is run and a merged dataframe is created, the user can download the final catalog as an HTML file to open in Streamlit. 
 
 
 
@@ -67,7 +67,7 @@ Project is: complete
 
 
 ## Room for Improvement
-- Using classes to open FITS files to avoid redundant code. 
+- Using classes to open FITS files with the goal of avoiding redundant code. 
 
 
 
