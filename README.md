@@ -45,7 +45,7 @@ Interesting features:
 
 
 ## Screenshots
-Here is where to find URIs for FITS data: "https://github.com/user-attachments/assets/4c0fecc8-9a94-4d5d-a6ae-029d39e27dd6
+Here is where to find URIs for FITS data on MAST, as it can be a bit tricky to navigate: "https://github.com/user-attachments/assets/4c0fecc8-9a94-4d5d-a6ae-029d39e27dd6
 "
 
 
