@@ -58,16 +58,16 @@ Here is where to find URIs for FITS data on MAST, as it can be a bit tricky to n
 
 
 ## Usage
-To access the catalog through JupyterLab, the user must run each object FITS file cell to download, open, and read the data for each FITS file, which allows for the display of images and metadata for each object. Once each cell is run and a merged dataframe is created, the user can download the final catalog as an HTML file. 
+To access the catalog through JupyterLab, the user must run each object's FITS file cell to download, open, and read the data, which allows for the display of images and metadata for them. Once each cell is run and a merged dataframe is created, the user can download the final catalog as an HTML file to input in Streamlit. 
 
 
 
 ## Project Status
-Project is: in progress
+Project is: complete
 
 
 ## Room for Improvement
-- Using classes to open FITS files avoid redundant code. 
+- Using classes to open FITS files to avoid redundant code. 
 
 
 
